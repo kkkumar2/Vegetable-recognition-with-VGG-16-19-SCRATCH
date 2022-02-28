@@ -26,6 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.h5
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -127,3 +128,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/vgg16_scratch.h5
+/vgg16_tl_convadd.h5
+/vgg16_transferlearning.h5
+/vgg19_transferlearning.h5
